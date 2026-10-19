@@ -1,24 +1,7 @@
-# README
+# RottenPotatoes
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+RottenPotatoes is a simple Rails web application for managing movies.
 
-Things you may want to cover:
+## Deployed App
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+https://fathomless-mesa-03742-310524a78ed6.herokuapp.com/
