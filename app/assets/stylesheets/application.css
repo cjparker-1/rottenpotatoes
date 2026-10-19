@@ -8,3 +8,66 @@
  *
  * Consider organizing styles into separate files for maintainability.
  */
+
+ body {
+  font-family: Arial, sans-serif;
+  margin: 2rem;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  max-width: 900px;
+}
+
+th,
+td {
+  border: 1px solid #ccc;
+  padding: 0.75rem;
+  text-align: left;
+}
+
+th {
+  background: #f2f2f2;
+}
+
+.sorted-asc {
+  background: #d8f3dc;
+}
+
+.sorted-desc {
+  background: #fce1e4;
+}
+
+a {
+  font-weight: bold;
+}
+
+input,
+textarea {
+  padding: 0.5rem;
+  margin-bottom: 0.75rem;
+}
+
+h1 {
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 0.5rem;
+  max-width: 900px;
+}
+
+form,
+div[id^="movie_"] {
+  max-width: 500px;
+  padding: 1.5rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background: #fafafa;
+  margin-bottom: 1.5rem;
+}
+
+button,
+input[type="submit"] {
+  padding: 0.6rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
