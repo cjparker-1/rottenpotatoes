@@ -71,3 +71,61 @@ input[type="submit"] {
   border-radius: 5px;
   cursor: pointer;
 }
+
+:root {
+  --disney-blue: #0b3d91;
+  --disney-light-blue: #eaf2ff;
+  --disney-gold: #f4c542;
+  --disney-purple: #5b2c83;
+  --disney-dark: #1f2a44;
+}
+
+body {
+  background: #f7faff;
+  color: var(--disney-dark);
+}
+
+h1 {
+  color: var(--disney-blue);
+  border-bottom: 3px solid var(--disney-gold);
+}
+
+a {
+  color: var(--disney-blue);
+}
+
+a:hover {
+  color: var(--disney-purple);
+}
+
+th {
+  background: var(--disney-light-blue);
+}
+
+.sorted-asc {
+  background: #dff4ff;
+}
+
+.sorted-desc {
+  background: #f7e7ff;
+}
+
+tbody tr:hover {
+  background: #fff8dc;
+}
+
+button,
+input[type="submit"] {
+  background: var(--disney-blue);
+  color: white;
+  border: 1px solid var(--disney-blue);
+}
+
+button:hover,
+input[type="submit"]:hover {
+  background: var(--disney-purple);
+}
+
+a:hover {
+  text-decoration-thickness: 2px;
+}
